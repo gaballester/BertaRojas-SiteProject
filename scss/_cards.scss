@@ -1,0 +1,42 @@
+.card {
+    background: $bg-clr-txt;
+    border-radius: 4px;
+    padding: 1em;
+    border: 1px solid $clr-txt-dark;
+    box-shadow: 0 7px 15px -5px;
+    overflow:hidden;
+  
+            
+    &__iframe {
+            width: 100%;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+    }
+    
+    &__article {
+        padding: 0.7rem;
+        font-size: 1rem;
+        text-align:justify;
+    }   
+
+    &__link{
+            display: block;
+            height: 2rem;
+            width: 10rem;
+            border:darkgreen 1px solid;
+            padding: 1rem;
+            text-align: center;
+            font-style: italic;
+    }
+               
+    &:hover {
+            transition:0.05s;
+            border: $clr-green 1px solid;
+    }
+        
+}
+
+
+
+
+	

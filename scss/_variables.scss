@@ -1,0 +1,30 @@
+// background color
+$bg-clr-dark: rgb(34, 34, 34);
+$br-clr-dark-t: rgba(34, 34, 34, 0.7);
+$bg-clr-light: White;
+$bg-clr-txt: rgb(14, 13, 13);
+$bg-clr-form: rgb(204,204,204);
+$bg-clr-input: rgb(246,246,246);
+
+/* text color */
+$clr-txt-dark: $bg-clr-light;
+$clr-txt-light: $bg-clr-dark;
+/* hover */
+$clr-txt-hover: rgb(241,229,59);
+$bg-clr-hover: rgba(255, 255, 255, 0.1);
+/* border */
+$clr-bdr: rgb(68, 68, 68);
+
+/* general colors */
+$clr-green: #2ecc71;
+$clr-blue: #3498db;
+$clr-yellow: #f1c40f;
+$clr-red:#e74c3c;
+
+$container-max-widths: (
+  sm: 400px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);

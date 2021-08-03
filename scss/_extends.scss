@@ -1,0 +1,17 @@
+.flex-row  {
+    display:flex;
+    flex-flow:row;
+    flex-wrap:nowrap;
+}
+
+.flex-row-center{
+    @extend .flex-row;
+    justify-content: center;
+    align-items:center; 
+}
+
+.flex-row-sbt-ctr{
+    @extend .flex-row;
+    justify-content:space-between;
+    align-items:center; 
+}

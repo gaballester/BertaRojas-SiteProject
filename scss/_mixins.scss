@@ -1,0 +1,62 @@
+@mixin custom-button($bgr-clr, $txt-clr, $bdr-clr: $bgr-clr) {
+  background: $bgr-clr;
+  color: $txt-clr;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  border: $bdr-clr 2px solid;
+  padding: 0.2rem 0.4rem;
+  font-size: 1rem;
+  text-align: center;
+
+  &:hover {
+    background: darken($bgr-clr, 9%);
+    transition: all 0.3s ease;
+  }
+  &:active {
+    background: darken($bgr-clr, 25%);
+  }
+}
+
+.custBtn {
+  /* Botones de colores */
+  &-green {
+    @include custom-button($clr-green, $clr-txt-dark);
+  }
+
+  &-blue {
+    @include custom-button($clr-blue, $clr-txt-dark);
+  }
+
+  &-yellow {
+    @include custom-button($clr-yellow, $clr-txt-dark);
+  }
+
+  &-red {
+    @include custom-button($clr-red, $clr-txt-dark);
+  }
+
+  /* botones con fondp background y color en borde y texto */
+  &-bgr-green {
+    @include custom-button($bg-clr-dark, $clr-green, $clr-green);
+  }
+
+  &-bgr-blue {
+    @include custom-button($bg-clr-dark, $clr-blue, $clr-blue);
+  }
+
+  &-bgr-yellow {
+    @include custom-button($bg-clr-dark, $clr-yellow, $clr-yellow);
+  }
+
+  &-bgr-red {
+    @include custom-button($bg-clr-dark, $clr-red, $clr-red);
+  }
+
+  &-bgr-spotify {
+    @include custom-button($bg-clr-dark, $clr-green, $clr-green);
+  
+  }
+
+  
+
+}
