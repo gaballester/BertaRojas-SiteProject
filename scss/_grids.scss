@@ -86,9 +86,13 @@
   }
 
   .grid-404 {
+    grid-template-rows: repeat(2,1fr);
+
+    grid-template-columns: repeat(2,1fr);
         grid-template-areas: "head head"
                              "img main"
                              "img sec";  
+
   }
 
   .grid-biografia {

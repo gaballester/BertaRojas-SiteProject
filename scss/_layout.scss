@@ -13,14 +13,14 @@ body {
   }
 
 h1 {
-    font-size: 20px;
+    font-size: 1.5rem;
     text-align: center;
     padding: 1rem;
   }
   
 h2 {
     padding: 1rem 0 1rem 0;
-    font-size: 16px;
+    font-size: 1.1rem;
     text-align: center;
   }
 
@@ -36,7 +36,6 @@ main {
 p {
     padding: 0rem 1rem; 
   }
-
 
   
 .italic {
@@ -60,16 +59,9 @@ p {
     background-image: url("../img/home-mbl.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    // background-attachment: fixed;
-    // background-size: cover;
     width:100%;
-    min-width: 360px;
-    max-width: 100%;
-    min-height: 630px;
-    max-height: 1800px;
-    // height:2900px;
+    height:90vh;
 }
-
 
 .img-biografia{
   max-width: 100%;
@@ -110,12 +102,10 @@ p {
   
     h1 {
       padding: 2rem 0 1rem 1rem;
-      font-size: 24px;
     }
   
     h2 {
       padding: 2rem 0 1rem 1rem;
-      font-size: 21px;
     }
   
     p {
@@ -154,17 +144,11 @@ p {
       }     
 
     }  
-
-    /* tratamineto de imágenes */
-    .img-biografia {
-        max-width: 100%;
-        padding: 5em 5em;
-    }
   
     /*boostrap*/
     .nav-link {
       display :row;
-      font-size: 20px;
+      font-size: 1.2rem;
       }
 
   }
