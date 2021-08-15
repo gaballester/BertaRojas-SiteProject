@@ -29,9 +29,6 @@ img {
     width: 100%;
   }
   
-main {
-    padding: 1em;
-  }
 
 p {
     padding: 0rem 1rem; 
@@ -63,17 +60,17 @@ p {
     height:90vh;
 }
 
+.img-home-pg {
+  width:100%;
+  height:auto;
+}
+
 .img-biografia{
   max-width: 100%;
   height: auto;
 }
 
-.ContactForm {
-  .ContactForm__imgContact {
-    max-width: 100%;
-    height:auto;
-  }
-}
+
 
 /* CAMBIOS A ESTILOS DE BOOSTRAP */
 .navbar-toggler {
@@ -96,16 +93,22 @@ p {
 
 @media all and (min-width: 768px) {
 
+  // main {
+  //   padding: 1em;
+  // }
+
     body {
       font-size: 18px;
     }
   
     h1 {
-      padding: 2rem 0 1rem 1rem;
+      font-size: 2rem;
+      padding: 2rem 01rem;
     }
   
     h2 {
-      padding: 2rem 0 1rem 1rem;
+      font-size:1.6rem;
+      padding: 2rem 0 1.5rem 1rem;
     }
   
     p {
@@ -125,14 +128,6 @@ p {
       height: auto;
     }
 
-    .img-home{
-      background-image: url(../img/home-dsk.jpg);
-      min-width: 900px;
-      max-width: 100%;
-      min-height: 780px;
-      max-height: 1900px;
-    }
-  
     .footer {
       font-size: 1.4rem;
       justify-content: space-around;
@@ -150,6 +145,18 @@ p {
       display :row;
       font-size: 1.2rem;
       }
+
+      #navbar ul li.active {
+        background:transparent;
+        background-image: none;
+        border-color: transparent;
+    }
+    
+    #navbar ul li:hover {        // to overwrite when you :hover the list items
+        background:transparent;
+        background-image: none;
+        border-color: transparent;
+    }
 
   }
   

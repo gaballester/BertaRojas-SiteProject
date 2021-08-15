@@ -48,7 +48,7 @@
 
 .grid-biografia {
   display: grid;
-  width: 90%;
+  width: 100%;
   align-items: center;
   grid-template-rows: repeat(4,auto);
   grid-template-columns: 1fr;
@@ -62,6 +62,8 @@
   }
 
   &__img {
+    display:flex;
+    justify-content: center;
     max-width:100%;
     grid-area: img;
   }
@@ -100,9 +102,10 @@
     grid-template-rows: repeat(3,auto);
     grid-template-columns: repeat(2,1fr);
     // height: 250px;
-    grid-template-areas: "hdr  hdr"
-                         "img  txt1"
-                         "txt2 txt2";
+    grid-template-areas: "hdr hdr"
+                         "img txt1"
+                         "txt2 txt2"
+                        ;
   
     &__hdr {
       grid-area: hdr;
@@ -110,7 +113,6 @@
 
     &__img {
       max-width:100%;
-      height:auto;
       border:2em;
       grid-area: img;
     }

@@ -2,7 +2,7 @@
 
 # Berta Rojas Project Site
 
-La idea de este proyecto fue desarrollar un site, que partiendo de la información existente en el site oficial de la artista, nos permitiese tener una visión más moderna del mismo, sin perder la sobriedad y respeto que tan maravillosa guitarrista clásica se merece
+La idea de este proyecto fue desarrollar un site, que partiendo de la información existente en el site oficial de la artista, nos permitiese tener una visión más moderna del mismo, sin perder la sobriedad y respeto que tan maravillosa guitarrista clásica se merece.
 
 
 ## Uso de los fuentes
@@ -14,13 +14,17 @@ Si deseas modificar los estilos del proyecto que estan en /css/styles.css, hay q
 
 Para ello hay que instalar node, que nos generará una carpeta node_modules.
 
-Instalar SASS
+Instalar SASS con el siguiente comando
 
-y luego desde una consola bash o desde una terminal de Visual Code corriendo bash, ejecutar el siguiente comando para habilitar SASS. 
+      npm install -D node-sass nodemon.
 
-```bash
-  npm run watch-css
-```
+configurar package-json, para indicar archivos scss origen y archivo css destino
+
+Luego desde una consola bash o desde una terminal de Visual Code corriendo bash, ejecutar el siguiente comando para habilitar SASS. 
+
+      ```bash
+        npm run watch-css
+      ```
 
 de esta manera SASS estará esperando cambios para impactar en el archivo final /css/style.css, que es el que usa el portal.
 
@@ -50,4 +54,9 @@ de esta manera SASS estará esperando cambios para impactar en el archivo final 
 ## Autor
 
 - [@gaballester](https://github.com/gaballester)
+- Correo electrónico del desarrollador guillermoaballester@gmail.com
+- Copywrite Guillermo Ballester 2021
 - Los datos son extraidos desde la página oficial de Berta Rojas, esta es solo una prueba de un estilo diferente y el site está motivado por la profunda admiración que tengo por su trabajo y estilo de vida.
+
+
+--------------------------------------------------------------------------------------------------------------
