@@ -28,10 +28,10 @@ img {
     padding: 0;
     width: 100%;
   }
-  
+
 
 p {
-    padding: 0rem 1rem; 
+    padding: 0rem 2rem; 
   }
 
   
@@ -87,15 +87,25 @@ p {
     padding: 0px;
   }
 
-
+  .h1-home {
+    float:left; 
+    margin-left: 20px; 
+    margin-top: 70px;
+    position: fixed;
+  }
 
 /* Desktop ------------------------------- */
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 801px) {
+  .h1-home {
+    float:left; 
+    margin-left: 50px; 
+    margin-top: 300px;
+    position: fixed;
+  }
+}
 
-  // main {
-  //   padding: 1em;
-  // }
+@media all and (min-width: 768px) {
 
     body {
       font-size: 18px;

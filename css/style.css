@@ -36,7 +36,7 @@ img {
   width: 100%; }
 
 p {
-  padding: 0rem 1rem; }
+  padding: 0rem 2rem; }
 
 .italic {
   font-size: 1em;
@@ -80,7 +80,20 @@ p {
 .navbar-brandimg {
   padding: 0px; }
 
+.h1-home {
+  float: left;
+  margin-left: 20px;
+  margin-top: 70px;
+  position: fixed; }
+
 /* Desktop ------------------------------- */
+@media all and (min-width: 801px) {
+  .h1-home {
+    float: left;
+    margin-left: 50px;
+    margin-top: 300px;
+    position: fixed; } }
+
 @media all and (min-width: 768px) {
   body {
     font-size: 18px; }
@@ -190,6 +203,7 @@ p {
     grid-area: hdr; }
   .grid-biografia__img {
     display: flex;
+    align-items: center;
     justify-content: center;
     max-width: 100%;
     grid-area: img; }
@@ -199,7 +213,7 @@ p {
     grid-area: txt2; }
 
 /* Desktop ------------------------------- */
-@media all and (min-width: 960px) {
+@media all and (min-width: 1025px) {
   .grid-container {
     display: grid;
     grid-template-columns: repeat(4, minmax(300px, 1fr));

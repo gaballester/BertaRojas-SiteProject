@@ -63,6 +63,7 @@
 
   &__img {
     display:flex;
+    align-items: center;
     justify-content: center;
     max-width:100%;
     grid-area: img;
@@ -79,7 +80,7 @@
 
 /* Desktop ------------------------------- */
 
-@media all and (min-width: 960px) {
+@media all and (min-width: 1025px) {
 
   .grid-container {
     display: grid;

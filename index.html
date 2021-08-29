@@ -24,14 +24,13 @@
 </head>
 <!-- fin de head -->
 <!--  inicio body -->
-
 <body>
     <!-- inicio del header -->
     <header class="container-fluid">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="./logos/BertaRojas200x51.png" alt=""></a>
-                <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="collapse"
+                <a class="navbar-brand" href="index.html"><img src="./logos/BertaRojas200x51.png" alt="Logo Home Berta Rojas"></a>
+                <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="collapse" id="btn-menu"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -52,10 +51,11 @@
     <!-- fin del header -->
     <!-- inicio del main -->
     <main>
-        <div>
+        <div class="flex"> 
+            <h1 class="h1-home" id="h1-home">Bienvenidos!!!</h1>
             <!-- div que contiene la imagen que se muestra en la portada -->
             <img class="img-home-pg" src="./img/home-dsk.jpg" alt="Imagen Portada Site Berta Rojas"
-                title="Foto Berta Rojas - Ph. Rodrigo Da Silva">
+                title="Foto Berta Rojas - Ph. Rodrigo Da Silva">           
         </div>
     </main>
     <!-- fin del main -->
@@ -85,21 +85,8 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
         </script>
     <!-- Bootstrap script fin -->
-    <script type="text/javascript">
-        var nav = document.querySelector('nav');
+    <script src="./src/js/main.js"></script>   
 
-        window.addEventListener('scroll', function () {
-            if (window.pageYOffset >= 600) {
-                nav.classList.add('bg-dark', 'shadow');
-            } else {
-                nav.classList.remove('bg-dark', 'shadow');
-            }
-        });
-
-
-
-    </script>
-    <script src="./js/main.js"></script>
 
 </body>
 <!-- fin body -->
